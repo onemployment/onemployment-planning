@@ -1,0 +1,110 @@
+name: Feature Request
+description: New feature idea for the platform
+title: "[FEATURE] "
+labels: ["feature-request", "needs-triage"]
+body:
+  - type: input
+    attributes:
+      label: Feature Name
+      description: "Concise name for this feature"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: MVP Priority
+      options:
+        - "Must Have"
+        - "Should Have" 
+        - "Could Have"
+        - "Won't Have"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Business Value
+      options:
+        - "High"
+        - "Medium"
+        - "Low"
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Target Users
+      options:
+        - label: "Job Seekers"
+        - label: "Employers"
+        - label: "Both"
+
+  - type: textarea
+    attributes:
+      label: "1. Problem Definition"
+      description: "What problem are we solving? Who has this problem? Why does this matter?"
+      placeholder: |
+        **What problem are we solving?**
+        [Describe the core problem]
+        
+        **Who has this problem?**
+        [Define the target users]
+        
+        **Why does this matter for our MVP?**
+        [Business impact and strategic importance]
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "2. Solution Approach"
+      description: "High-level approach to solving this problem"
+      placeholder: |
+        **Chosen approach:**
+        [Describe the selected solution]
+        
+        **Alternatives considered:**
+        [Other options that were evaluated]
+        
+        **Why this solution:**
+        [Reasoning for the chosen approach]
+
+  - type: textarea
+    attributes:
+      label: "3. User Scenarios"
+      description: "Key user scenarios and workflows"
+      placeholder: |
+        **Happy Path:**
+        [Primary user journey]
+        
+        **Alternative Flows:**
+        [Secondary use cases]
+        
+        **Error Cases:**
+        [How to handle failures]
+
+  - type: textarea
+    attributes:
+      label: "4. Functional Requirements"
+      description: "Specific functional requirements (FR1, FR2, etc.)"
+      placeholder: |
+        **MVP Requirements (Must Have):**
+        - FR1: [Specific requirement]
+        - FR2: [Specific requirement]
+        
+        **Nice-to-Have (Future):**
+        - [Future requirements]
+
+  - type: textarea
+    attributes:
+      label: "5. Non-Functional Requirements"
+      description: "Performance, security, scalability requirements"
+      placeholder: |
+        **Performance:**
+        [Response times, throughput requirements]
+        
+        **Security:**
+        [Authentication, data protection requirements]
+        
+        **Scalability:**
+        [User load, data volume requirements]

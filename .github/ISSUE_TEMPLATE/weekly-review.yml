@@ -1,0 +1,41 @@
+name: Weekly Estimation Review
+description: Simple weekly estimation accuracy review
+title: "[WEEKLY] Estimation Review - Week of [Date]"
+labels: ["review", "estimation"]
+body:
+  - type: textarea
+    attributes:
+      label: Completed Tasks This Week
+      description: "List all completed tasks with estimation accuracy"
+      placeholder: |
+        Task 1: frontend#23 - Estimated: 2, Actual: 3, Accuracy: 67%
+        Task 2: backend#45 - Estimated: 1, Actual: 1, Accuracy: 100%
+        Task 3: planning#15 - Estimated: 3, Actual: 2, Accuracy: 150%
+        
+        ## Week Average: 106%
+        
+  - type: textarea
+    attributes:
+      label: Patterns & Insights
+      description: "What patterns do you see in estimation accuracy?"
+      placeholder: |
+        ## Underestimated (took longer than expected):
+        - [List tasks and why they took longer]
+        
+        ## Overestimated (finished faster than expected):
+        - [List tasks and why they were faster]
+        
+        ## Accurate estimates:
+        - [List tasks that were estimated well]
+        
+  - type: textarea
+    attributes:
+      label: Next Week Focus
+      description: "Improvements for next week"
+      placeholder: |
+        ## Estimation Improvements:
+        - [Specific patterns to watch for]
+        - [Types of tasks to be more careful with]
+        
+        ## Process Adjustments:
+        - [Any changes to make to templates or workflow]

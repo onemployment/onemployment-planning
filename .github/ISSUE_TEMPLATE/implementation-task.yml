@@ -1,0 +1,143 @@
+name: Implementation Task
+description: Development task with complete context
+title: "[TASK] "
+labels: ["task", "ready-for-dev"]
+body:
+  - type: input
+    attributes:
+      label: Epic (Feature Request)
+      description: "Link to the feature request issue"
+      placeholder: "onemployment-planning#1"
+    validations:
+      required: true
+      
+  - type: input
+    attributes:
+      label: Technical Design
+      description: "Link to the approved technical design"
+      placeholder: "onemployment-planning#15"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Estimated Story Points
+      options:
+        - "1 (half day)"
+        - "2 (full day)"
+        - "3 (two days)"
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Component Type
+      options:
+        - "Frontend"
+        - "Backend" 
+        - "Infrastructure"
+        - "Documentation"
+        - "Testing"
+
+  - type: textarea
+    attributes:
+      label: Implementation Requirements
+      description: "Key requirements from the design document"
+      placeholder: |
+        ## Core Requirements
+        - [List main functional requirements]
+        - [Include any specific constraints]
+        - [Note integration points with other components]
+
+  - type: textarea
+    attributes:
+      label: Technical Specifications
+      description: "API contracts, component interfaces, or infrastructure configs"
+      placeholder: |
+        ## Frontend: Component Interface
+        ```typescript
+        interface ComponentProps {
+          // Define props and types
+        }
+        ```
+        
+        ## Backend: API Specification
+        ```typescript
+        POST /api/endpoint
+        Request: { ... }
+        Response: { ... }
+        ```
+        
+        ## Infrastructure: Resource Configuration
+        ```yaml
+        # AWS resource definitions or configuration
+        ```
+
+  - type: textarea
+    attributes:
+      label: Implementation Approach
+      description: "How you plan to implement this task"
+      placeholder: |
+        ## Implementation Strategy
+        - Step 1: [First step]
+        - Step 2: [Second step]
+        - Step 3: [Third step]
+        
+        ## Technology/Patterns to Use
+        - [Specific libraries, services, or patterns]
+        - [References to existing code to follow]
+
+  - type: textarea
+    attributes:
+      label: Dependencies & Code References
+      description: "Existing code patterns and dependencies"
+      placeholder: |
+        ## Code References
+        - Similar patterns: `path/to/existing/code`
+        - API clients: `src/api/service.ts`
+        - Component patterns: `src/components/Similar.tsx`
+        - Infrastructure: `infrastructure/similar-resource.yml`
+        
+        ## Dependencies
+        - Depends on: [other issues or external services]
+        - Blocks: [issues that depend on this]
+
+  - type: textarea
+    attributes:
+      label: Testing Requirements
+      description: "How to test this implementation"
+      placeholder: |
+        ## Unit Tests
+        - [Specific test cases needed]
+        
+        ## Integration Tests
+        - [End-to-end scenarios to verify]
+        
+        ## Manual Testing
+        - [Steps to manually verify functionality]
+
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      description: "Definition of done"
+      value: |
+        ## Success Criteria
+        - [ ] Core functionality implemented and working
+        - [ ] Error handling covers edge cases
+        - [ ] Unit tests written and passing
+        - [ ] Integration tests passing (if applicable)
+        - [ ] Code follows existing patterns and conventions
+        - [ ] Documentation updated (if needed)
+        - [ ] Manual testing completed successfully
+        - [ ] No breaking changes to existing functionality
+
+  - type: textarea
+    attributes:
+      label: Notes & Considerations
+      description: "Additional context, risks, or special considerations"
+      placeholder: |
+        ## Special Considerations
+        - [Any risks or complex areas]
+        - [Performance considerations]
+        - [Security implications]
+        - [Future extensibility needs]
