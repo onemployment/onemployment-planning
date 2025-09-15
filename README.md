@@ -26,19 +26,25 @@ onemployment-planning/
 
 ## Quick Start
 
-1. **Create Feature Request:** Use the Feature Request template to propose new features
-2. **Technical Design:** Follow the 9-step collaborative design process
-3. **Implementation Planning:** Break designs into story-pointed tasks
-4. **Cross-Repo Coordination:** Create implementation tasks in appropriate repositories
-5. **Estimation Tracking:** Use weekly reviews to improve estimation accuracy
+### Using Issue Templates
+1. **Create Feature Request:** [Use Feature Request template](https://github.com/onemployment/onemployment-planning/issues/new?template=feature-request.yml)
+2. **Technical Design:** [Use Technical Design template](https://github.com/onemployment/onemployment-planning/issues/new?template=technical-design.yml)
+3. **Implementation Tasks:** [Use Implementation Task template](https://github.com/onemployment/onemployment-planning/issues/new?template=implementation-task.yml)
+4. **Weekly Reviews:** [Use Weekly Review template](https://github.com/onemployment/onemployment-planning/issues/new?template=weekly-review.yml)
+
+### Project Board Workflow
+1. **Set up project board:** Go to [Organization Projects](https://github.com/orgs/onemployment/projects) and create "Development Process" board
+2. **Add issues to board:** Use Projects sidebar when creating issues
+3. **Track progress:** Move issues through Backlog → In Progress → Review → Done
+4. **Cross-repo coordination:** Link related issues across repositories
 
 ## Documentation
 
-**[Process Documentation](https://onemployment.github.io/onemployment-planning)**
-
-- [Estimation Tracking Process](https://onemployment.github.io/onemployment-planning/process/estimation-tracking)
-- Workflow Overview
-- Story Point Guidelines
+**[Process Documentation](docs/index.md)** 
+- **Note:** Enable GitHub Pages in repository settings to access at `https://onemployment.github.io/onemployment-planning`
+- [Setup Guide](docs/setup-guide.md) - First-time repository setup instructions
+- [Estimation Tracking Process](docs/process/estimation-tracking.md) - Story point tracking details
+- Workflow Overview and Issue Template Usage Guide
 
 ## Current Focus
 
@@ -57,4 +63,5 @@ onemployment-planning/
 
 ---
 
-**Live Documentation:** https://onemployment.github.io/onemployment-planning
+**Setup Instructions:** [docs/setup-guide.md](docs/setup-guide.md)  
+**Live Documentation:** https://onemployment.github.io/onemployment-planning (after enabling GitHub Pages)
