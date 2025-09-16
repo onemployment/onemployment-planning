@@ -62,7 +62,7 @@
 - **Project Board**: https://github.com/orgs/onemployment/projects/1
 
 ### Platform Status
-- **Frontend**: In development (React 19, TypeScript, Redux Toolkit)
+- **Frontend**: Production deployment (React 19, TypeScript, Redux Toolkit)
 - **Backend**: Production-ready (Node.js API with Redis authentication)
 - **Infrastructure**: Production deployment (AWS ECS, ElastiCache, RDS)
 - **Planning**: Established GitHub-based workflow with issue templates
@@ -72,7 +72,7 @@
 | Repository | Purpose | Status | When to Use | CLAUDE.md Link |
 |------------|---------|---------|-------------|----------------|
 | **[planning](https://github.com/onemployment/onemployment-planning)** | Feature requests, technical designs, process coordination | ✅ Active | Feature requests, tech designs, cross-repo coordination | *This file* |
-| **[frontend](https://github.com/onemployment/frontend)** | React/TypeScript user interface | 🏗️ Development | UI components, client-side logic, user experience | [`frontend/CLAUDE.md`](https://github.com/onemployment/frontend/blob/main/CLAUDE.md) |
+| **[frontend](https://github.com/onemployment/frontend)** | React/TypeScript user interface | ✅ Production | UI components, client-side logic, user experience | [`frontend/CLAUDE.md`](https://github.com/onemployment/frontend/blob/main/CLAUDE.md) |
 | **[backend](https://github.com/onemployment/backend)** | Node.js/TypeScript API | ✅ Production | API endpoints, authentication, business logic | [`backend/CLAUDE.md`](https://github.com/onemployment/backend/blob/main/CLAUDE.md) |
 | **[infrastructure](https://github.com/onemployment/infrastructure)** | AWS infrastructure as code | ✅ Production | Deployment, monitoring, cloud resources | [`infrastructure/CLAUDE.md`](https://github.com/onemployment/infrastructure/blob/main/CLAUDE.md) |
 

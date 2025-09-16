@@ -27,7 +27,7 @@
 |------------|---------|--------|------------|
 | **[planning](https://github.com/onemployment/onemployment-planning)** | Feature requests, designs, coordination | ✅ Active | [`CLAUDE.md`](CLAUDE.md) |
 | **[backend](https://github.com/onemployment/backend)** | Node.js API with Redis authentication | ✅ Production | [`backend/CLAUDE.md`](https://github.com/onemployment/backend/blob/main/CLAUDE.md) |
-| **[frontend](https://github.com/onemployment/frontend)** | React/TypeScript user interface | 🏗️ Development | [`frontend/CLAUDE.md`](https://github.com/onemployment/frontend/blob/main/CLAUDE.md) |
+| **[frontend](https://github.com/onemployment/frontend)** | React/TypeScript user interface | ✅ Production | [`frontend/CLAUDE.md`](https://github.com/onemployment/frontend/blob/main/CLAUDE.md) |
 | **[infrastructure](https://github.com/onemployment/infrastructure)** | AWS deployment and monitoring | ✅ Production | [`infrastructure/CLAUDE.md`](https://github.com/onemployment/infrastructure/blob/main/CLAUDE.md) |
 
 ### Live Environment
