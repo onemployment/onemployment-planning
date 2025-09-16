@@ -26,6 +26,21 @@
 - Template: [Weekly Review](https://github.com/onemployment/onemployment-planning/issues/new?template=weekly-review.yml)
 - Process: Estimation accuracy tracking → Process improvement
 
+### 🤖 Specialized AI Agents
+
+**Product Manager Agent** (`@product-manager`)
+- **Purpose**: Requirements engineering and user-centered design
+- **Best For**: Feature Request development, user scenario definition, requirements gathering
+- **Capabilities**: Auto-creates structured Feature Requests in Notion, runs systematic requirement-gathering processes
+- **Usage**: Available in Claude Code sessions started from this planning repository
+- **Workflow**: Conversation-gated 6-step process (Problem → Solution → Scenarios → Requirements → Non-functional → Implementation)
+
+**When to Use Product Manager Agent**:
+- Creating new Feature Request issues with comprehensive requirements
+- Translating business objectives into technical specifications  
+- Defining user scenarios and acceptance criteria
+- Gathering and analyzing user needs systematically
+
 ## 📊 Platform Overview
 
 ### System Architecture
