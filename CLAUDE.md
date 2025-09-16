@@ -31,7 +31,7 @@
 **Product Manager Agent** (`@product-manager`)
 - **Purpose**: Requirements engineering and user-centered design
 - **Best For**: Feature Request development, user scenario definition, requirements gathering
-- **Capabilities**: Auto-creates structured Feature Requests in Notion, runs systematic requirement-gathering processes
+- **Capabilities**: Auto-creates structured Feature Requests in GitHub, runs systematic requirement-gathering processes
 - **Usage**: Available in Claude Code sessions started from this planning repository
 - **Workflow**: Conversation-gated 6-step process (Problem → Solution → Scenarios → Requirements → Non-functional → Implementation)
 

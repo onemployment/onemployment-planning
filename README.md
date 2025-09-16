@@ -62,7 +62,7 @@ cd onemployment-planning/
 **Product Manager Agent** (`@product-manager`)
 - **When to use**: Creating Feature Requests, gathering requirements, defining user scenarios
 - **How to use**: Type `@product-manager` in Claude Code after starting session from planning repo
-- **Capabilities**: Auto-creates structured Feature Requests in Notion, runs 6-step requirement gathering process
+- **Capabilities**: Auto-creates structured Feature Requests in GitHub, runs 6-step requirement gathering process
 - **Output**: Complete Feature Request with user scenarios, acceptance criteria, and technical specifications
 
 ### Navigation Between Repositories
@@ -113,7 +113,7 @@ cd ../onemployment-planning/       # Return for cross-repo coordination
 
 4. **GitHub Issue Creation**
    - Agent creates structured GitHub issue using [Feature Request template](https://github.com/onemployment/onemployment-planning/issues/new?template=feature-request.yml)
-   - Automatic linking to Notion documentation
+   - Automatic cross-repository issue linking
    - Addition to project board
 
 **Expected Outcome**: Comprehensive Feature Request ready for technical design phase
@@ -304,7 +304,7 @@ cd onemployment-planning/
 @product-manager create a new feature request for "user profile photo upload"
 ```
 - Agent guides through 6-step requirements process
-- Creates comprehensive Feature Request in GitHub + Notion
+- Creates comprehensive Feature Request in GitHub with structured documentation
 - Defines user scenarios, acceptance criteria, security requirements
 
 **Step 2 - Technical Design** (in `onemployment-planning/`):
