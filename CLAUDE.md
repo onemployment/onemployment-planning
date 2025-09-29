@@ -49,8 +49,8 @@
 │    Frontend     │    │     Backend      │    │ Infrastructure  │
 │                 │    │                  │    │                 │
 │ React + TS      │◄──►│ Node.js + TS     │◄──►│ AWS ECS/Fargate │
-│ Redux Toolkit   │    │ Express.js       │    │ ElastiCache     │
-│ Vite Build      │    │ Redis Client     │    │ Route 53 + ALB  │
+│ Redux Toolkit   │    │ Express.js       │    │ RDS PostgreSQL  │
+│ Vite Build      │    │ Prisma ORM       │    │ Route 53 + ALB  │
 │ Framer Motion   │    │ bcrypt + Zod     │    │ ECR Registry    │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
@@ -63,8 +63,8 @@
 
 ### Platform Status
 - **Frontend**: Production deployment (React 19, TypeScript, Redux Toolkit)
-- **Backend**: Production-ready (Node.js API with Redis authentication)
-- **Infrastructure**: Production deployment (AWS ECS, ElastiCache, RDS)
+- **Backend**: Production-ready (Node.js API with JWT authentication)
+- **Infrastructure**: Production deployment (AWS ECS, RDS PostgreSQL)
 - **Planning**: Established GitHub-based workflow with issue templates
 
 ## 🗂️ Repository Navigator
@@ -255,7 +255,7 @@ cd onemployment-planning
 
 **Repository-Specific**:
 - **Frontend**: npm, Vite, modern browser for development
-- **Backend**: Docker Compose for Redis/PostgreSQL, Jest for testing  
+- **Backend**: Docker Compose for PostgreSQL, Jest for testing  
 - **Infrastructure**: AWS CLI, Docker for containerization, access to AWS account
 
 ## 🔧 Shared Platform Standards
@@ -367,9 +367,9 @@ When working in implementation repositories:
 - **Infrastructure Operations**: [`infrastructure/CLAUDE.md`](https://github.com/onemployment/infrastructure/blob/main/CLAUDE.md) - AWS deployment, monitoring, security
 
 ### Emergency Contacts & Resources
-- **AWS Console**: us-east-2 (Ohio) region - ECS, ElastiCache, RDS management
+- **AWS Console**: us-east-2 (Ohio) region - ECS, RDS management
 - **GitHub Actions**: Check workflow status for deployment issues
-- **Redis Connection**: `onemployment-redis.93oy5x.0001.use2.cache.amazonaws.com:6379`
+- **Database**: `onemployment-postgres.cr2ekyu0wmcb.us-east-2.rds.amazonaws.com:5432`
 - **Container Registry**: `062440546828.dkr.ecr.us-east-2.amazonaws.com/onemployment/api`
 
 ---
